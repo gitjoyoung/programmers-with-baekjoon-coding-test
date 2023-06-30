@@ -1,14 +1,15 @@
 function solution(n) {
-    var answer = 1;
+    var answer = 0;
+    var pizza = 1;
     while (true){
-        if(((answer *7) / n) >= 1){
+        if(((pizza *7) / n) >= 1){
            break;
         }else{
-        answer += 1;
+        pizza += 1;
         }
             
-    }
-        
+    }        
+    answer = pizza;
     
     return answer;
 }
