@@ -1,0 +1,13 @@
+function solution(a, b) {
+    
+    if( a % 2 !== 0 && b % 2 !==0){
+     return a*a + b*b;   
+    }
+if( a % 2 !== 0 || b % 2 !==0){
+ return 2 *(a+b);
+
+}
+    
+    var answer = Math.abs(a-b);
+    return answer;
+}
